@@ -1,0 +1,29 @@
+.container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-card-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 26px;
+  color: #ff8542;
+  font-weight: 700;
+  text-align: center;
+}
+.todo-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
